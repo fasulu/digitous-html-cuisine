@@ -1,0 +1,23 @@
+/* add colour and use gradient to fade in or out */
+/* .background-cuizine {
+    background-color: #000000;
+    background: linear-gradient(0deg, rgb(33 37 41 / 80%), rgb(33 37 41 / 80%)), url(../img/header.jpg); 
+    background-position: center;
+} */
+
+.navbar h2 a {
+    font-size: 30px;
+}
+
+.header-cuizine-row {
+    height: 400px;
+}
+
+.header-cuizine-row img {
+    width: 80px;
+}
+
+.mapouter {
+    width: 100%;
+    height: auto;
+}

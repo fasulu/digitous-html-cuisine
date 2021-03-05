@@ -4,3 +4,11 @@
 h1, h2, h3, h6 {
     font-family: 'Courgette', cursive;
 }
+
+/* this line of code used throught the side  */
+/* add colour and use gradient to fade in or out */
+.background-cuizine {
+    background-color: #000000;
+    background: linear-gradient(0deg, rgb(33 37 41 / 80%), rgb(33 37 41 / 80%)), url(../img/header.jpg); 
+    background-position: center;
+}
