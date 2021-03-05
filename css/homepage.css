@@ -1,16 +1,9 @@
-/* .navbar-brand {
-    font-family: Courgette;
-} */
 
-/* header {
-    background-image: url(../img/header.jpg);
-    background-image: url(../img/logo_square_white.png);
-} */
-
+/* add colour and use gradient to fade in or out */
 .background-cuizine {
     background-color: #000000;
-    background-image: url(../img/header.jpg);
-
+    background: linear-gradient(0deg, rgb(33 37 41 / 80%), rgb(33 37 41 / 80%)), url(../img/header.jpg); 
+    background-position: center;
 }
 
 .navbar h2 a {
@@ -25,45 +18,34 @@
     width: 80px;
 }
 
-/* 
-.image {
-    position: relative;
+.mainArticle {
+    font-family: Oswald ;
+}
+
+.mainArticle img {
+    width:100%;
+    height:auto;
+}
+
+aside button {
     width: 100%;
-    height: auto;
-
 }
 
-.image_img {
-    display: block;
-    width: 100%;
+ul {
+    list-style: none;
+    padding-left: 0;
 }
 
-.image__overlay {
-    position: absolute;
-    top: 0;
-    left: 25%;
-    width: 25%;
-    height: auto;
-    background-color: rgb(0, 0, 0);
-
-    display: flex;
-    flex-direction: column;
-    
-    justify-content: center;
-    
-    
-    opacity: .5;
+footer a {
+    color: #fff;
 }
 
-.image__title {
-    font-weight: bold;
-    
+.footermarginPadding {
+    padding-left: 0px;
+    margin-left: 0px;
 }
 
-.image__description {
-    margin-top: 0.25;
-}
-
+/*
 img {
     width: 100%;
     height: auto;
