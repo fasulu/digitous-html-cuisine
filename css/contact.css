@@ -1,3 +1,8 @@
+.background-cuizine {
+    background-color: #000000;
+    background: linear-gradient(0deg, rgb(33 37 41 / 80%), rgb(33 37 41 / 80%)), url(../img/header.jpg); 
+    background-position: center;
+}
 
 .navbar h2 a {
     font-size: 30px;
@@ -11,19 +16,10 @@
     width: 80px;
 }
 
-.mapouter {
-    width: 100%;
-    height: auto;
+footer li {
+    list-style: none;
 }
 
-.contact {
-    padding-left: 100px;
-}
-
-.address {
-    padding-left: 125px;
-}
-
-.rue, .ville {
-    padding-left: 175px;
+footer a {
+    color: white;
 }

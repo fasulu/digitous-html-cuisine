@@ -1,0 +1,44 @@
+.background-cuizine {
+    background-color: #000000;
+    background: linear-gradient(0deg, rgb(33 37 41 / 80%), rgb(33 37 41 / 80%)), url(../img/team/team.jpg); 
+    background-position: center;
+}
+
+.navbar h2 a {
+    font-size: 30px;
+}
+
+.header-cuizine-row {
+    height: 400px;
+}
+
+.header-cuizine-row img {
+    width: 80px;
+}
+
+.member1, .member2, .member3, .member4, .member5, .member6 {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.contact {
+    padding-left: 100px;
+}
+
+.address {
+    padding-left: 125px;
+}
+
+.rue, .ville {
+    padding-left: 175px;
+}
+
+footer ul li {
+    list-style-type: none;
+    color: white;
+}
+
+footer a {
+    list-style-type: none;
+    color: white;
+}
