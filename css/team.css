@@ -1,7 +1,15 @@
-.background-cuizine {
+/* .background-cuizine-team {
     background-color: #000000;
     background: linear-gradient(0deg, rgb(33 37 41 / 80%), rgb(33 37 41 / 80%)), url(../img/team/team.jpg); 
     background-position: center;
+} */
+
+h1, h2, h3, h4, h6 {
+    font-family: 'Courgette', 'cursive';
+}
+
+p {
+    font-family: 'Oswald';
 }
 
 .navbar h2 a {
@@ -41,4 +49,8 @@ footer ul li {
 footer a {
     list-style-type: none;
     color: white;
+}
+
+img {
+    width: 150px;
 }
